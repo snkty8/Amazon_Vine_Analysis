@@ -22,3 +22,12 @@ Four data tables were created: customers, products, review id, and vine.  The or
 - Vine Table: The select function was used to select only the columns that are in the vine_table.  It was then loaded into pgAdmin.
 
 ![image](https://github.com/snkty8/Amazon_Vine_Analysis/blob/main/images/vine_table.png)
+
+After further evaluation, the number of Vine and non Vine reveiws were calculated. Using Pandas in Jupyter Notebook, the vine table was exported as a CSV.  The data was filtered and a new dataframe was created to retrieve the total votes count equal or greater than 20 to pick reviews that were more likely to be helpful. Next, the new dataframe was filtered to retrieve all the rows where the number of helpful_votes divided by the total votes equal or greater than 50 percent. From this table the following information was caluclated: 
+
+- Vine reviews: 94
+- Non Vine reviews: 40471
+- 5-star Vine reviews: 48
+- 5-star Non Vine reviews: 15663
+- Percentage of 5-star Vine reivews: 51.1%
+- Percentage of 5-star Non Vine reviews: 38.7%
