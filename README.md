@@ -31,3 +31,7 @@ After further evaluation, the number of Vine and non Vine reveiws were calculate
 - 5-star Non Vine reviews: 15663
 - Percentage of 5-star Vine reivews: 51.1%
 - Percentage of 5-star Non Vine reviews: 38.7%
+
+
+## Summary 
+The propose of this project was to determine if there is favorable bias towards Vine reviewers.  From the data above, the percentage of 5-star Vine reviews is 51.1% versus non Vine reviews at 38.7%.  Although, there are far more non Vine reviewers compared to actual Vine reviews there does show a bais towards the Vine reviews.  If only looking at the percentage of Vine reviewers, a customer would immediately go with these reviews when purchasing video games. It would be a great idea to add the verified purchases to the tables. Although this could also add a slight bias towards Vine reviewers, Amazon could add the fact the video game was purchase, played, and then reviewed.  Rather than allowing customers to blindly agree with Vine reviewers.
