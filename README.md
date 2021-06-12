@@ -19,11 +19,11 @@ Four data tables were created: customers, products, review id, and vine.  The or
 
 ![image](https://github.com/snkty8/Amazon_Vine_Analysis/blob/main/images/review_id_table.png)
 
-- Vine Table: To created this table, the select function was used to select only the columns that are in the vine_table.  It was then loaded into pgAdmin. Below is a screen shot of from pgAdmin.
+- Vine Table: To create this table, the select function was used to select only the columns that are in the vine_table.  It was then loaded into pgAdmin. Below is a screen shot of from pgAdmin.
 
 ![image](https://github.com/snkty8/Amazon_Vine_Analysis/blob/main/images/vine_table.png)
 
-After further evaluation, the number of Vine and non Vine reveiws were calculated. Using Pandas in Jupyter Notebook, the vine table was exported as a CSV.  The data was filtered and a new dataframe was created to retrieve the total votes count equal or greater than 20 to pick reviews that were more likely to be helpful. Next, a new dataframe was filtered to retrieve all the rows where the number of helpful_votes divided by the total votes equal or greater than 50 percent. From this table the following information was caluclated: 
+After further evaluation, the number of Vine and non-Vine reveiws were calculated. Using Pandas in Jupyter Notebook, the vine table was exported as a CSV.  The data was filtered and a new dataframe was created to retrieve the total votes count equal or greater than 20 to pick reviews that were more likely to be helpful. Next, a new dataframe was filtered to retrieve all the rows where the number of helpful_votes divided by the total votes equal or greater than 50 percent. From this table the following information was caluclated: 
 
 - Vine reviews: 94
 - Non Vine reviews: 40471
@@ -34,4 +34,5 @@ After further evaluation, the number of Vine and non Vine reveiws were calculate
 
 
 ## Summary 
-The propuse of this project was to determine if there is favorable bias towards Vine reviewers.  From the data above, the percentage of 5-star Vine reviews is 51.1% versus non Vine reviews at 38.7%.  Although, there are far more non Vine reviewers compared to actual Vine reviews there does show a bais towards the Vine reviews.  If only looking at the percentage of Vine reviewers, a customer would immediately go with these reviews when purchasing video games. It would be a great idea to add the verified purchases to the tables. Although this could also add a slight bias towards Vine reviewers, Amazon could add the fact the video game was purchase, played, and then reviewed.  Rather than allowing customers to blindly agree with only Vine reviewers.
+The propuse of this project was to determine if there is favorable bias towards Vine reviewers.  From the data above, the percentage of 5-star Vine reviews is 51.1% versus non-Vine reviews at 38.7%.  Although, there are far more non-Vine reviewers compared to actual Vine reviews there does show a bais towards the Vine reviews.  If only looking at the percentage of Vine reviewers, a customer would immediately go with these reviews when purchasing video games. It would be a great idea to add the verified purchases to the tables. Although this could also add a slight bias towards Vine reviewers, Amazon could add the fact the video game was purchase, played, and then reviewed.  Rather than allowing customers to blindly agree with only Vine reviewers.
+
