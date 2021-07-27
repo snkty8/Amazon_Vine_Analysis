@@ -5,7 +5,7 @@ In this project we have been tasked to analyze Amazon reviews written by members
 
 
 ## Results
-Four data tables were created: customers, products, review id, and vine.  The original data orginated from: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz.  Using pgAdmin, the four empty tables were created, and the original dataset was mulnipulated using PySpark. Again, using PySpark the orginal dataset was transformed into the four seperate sets. 
+Four data tables were created: customers, products, review id, and vine.  The original data orginated from: [Data](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz).  Using pgAdmin, the four empty tables were created, and the original dataset was mulnipulated using PySpark. Again, using PySpark the orginal dataset was transformed into the four seperate sets. 
 
 - Customer Table: To create this table, we used the groupby function in PySpark to count the customer_id column of the dataset, it was then renamed the count(customer_id).  Then loaded into pdAdmin. Below is a screen shot of the pgAdmin table.
 
